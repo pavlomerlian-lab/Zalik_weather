@@ -20,7 +20,7 @@ export default function DetailsGrid({ data }) {
     <View style={styles.grid}>
       <DetailItem icon="water-outline" label="Вологість" value={`${main.humidity}%`} />
       <DetailItem icon="speedometer-outline" label="Тиск" value={`${main.pressure} гПа`} />
-      <DetailItem icon="arrow-up-circle-outline" label="Вітер" value={`${wind.speed} м/с`} />
+      <DetailItem icon="flag-outline" label="Вітер" value={`${wind.speed} м/с`} />
       <DetailItem icon="eye-outline" label="Видимість" value={`${(visibility / 1000).toFixed(1)} км`} />
     </View>
   );
